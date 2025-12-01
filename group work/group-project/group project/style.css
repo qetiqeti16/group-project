@@ -1,0 +1,147 @@
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid rgba(243, 233, 213, 0.3);
+    margin-top: 120px;
+    font-size: 14px;
+}
+
+header {
+    background: #536451;
+    padding: 18px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+nav a {
+    color: #F3E9D5;
+    text-decoration: none;
+    font-family: "ABCFavoritMono", monospace;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+
+
+body {
+    margin: 0;
+    background: #536451;
+    font-family: "ABCFavoritMono", monospace;
+    color: #F3E9D5;
+}
+
+.fullscreen-form {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.intro-text {
+    line-height: 1.6;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    opacity: 0.8;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 12px;
+    background: transparent;
+    border: 1px solid rgba(243, 233, 213, 0.5);
+    color: #F3E9D5;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #F3E9D5;
+    background: rgba(243, 233, 213, 0.08);
+}
+
+button {
+    border: 1px solid #F3E9D5;
+    background: transparent;
+    color: #F3E9D5;
+    padding: 12px 14px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #F3E9D5;
+    color: #536451;
+    transform: translateY(-3px);
+}
+
+
+
+.geo{
+    font-size:20em;
+    text-align: center;
+}
+
+.container {
+            display: flex;
+            gap: 20px;
+        }
+.selector {
+            width: 200px;
+        }
+
+
+.map  img {
+            width: 600px;
+            display: inline;
+        }
+        .cities-list {
+    gap: 10px;
+}
+h2{
+    text-align: left;
+}
+
+.cityimages img {
+    width: 200px;      
+    height: 140px;     
+    object-fit: cover; 
+    border-radius: 5px;
+
+}
+
+.routes {text-align: left;
+    font-size: 12px;
+}
+
